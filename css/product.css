@@ -1,0 +1,220 @@
+/*产品介绍*/
+#cjSystem >.title{
+    text-align: center;
+    margin-bottom: 54px;
+}
+#cjSystem .out-wrap{
+    position: relative;
+    margin: 0 auto;
+    padding-left: 178px;
+    width: 1200px;
+    height: 738px;
+    background: url("../images/product/productBg1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #333333;
+}
+#cjSystem .out-wrap .top-img{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#cjSystem .out-wrap .right-img{
+    position: absolute;
+    display: block;
+    top: 242px;
+    right: 98px;
+}
+
+#cjSystem .content-box{
+    width: 560px;
+    color: #333333;
+}
+
+#cjSystem .content-box .title_EN{
+    font-size: 28px;
+}
+
+#cjSystem .content-box .title_CN{
+    font-size: 22px;
+}
+
+#cjSystem .content-box .short-line{
+    margin: 35px 0;
+    height: 4px;
+    width: 54px;
+    background: #4b2391;
+}
+
+#cjSystem .content-box .one-p,
+#cjSystem .content-box .one-p2{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#cjSystem .content-box .one-p{
+    text-indent: 2em;
+    margin-bottom: 10px;
+}
+
+#cjSystem .content-box .one-p2 .index{
+    color: #F27C15;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.product-item-wrap{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 18px 100px 0;
+    height: 110px;
+    background: url("../images/product/productBg2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.product-item-wrap .product-item{
+    margin-right: 45px;
+    width: 164px;
+    text-align: center;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+}
+.product-item-wrap .product-item:last-child{
+    margin-right: 0;
+}
+
+
+    /*智能搜索*/
+#InternetGrab{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#InternetGrab .left-box{
+    padding-left: 10px;
+    width: 504px;
+    float: left;
+
+}
+
+#InternetGrab .left-box .title_EN{
+    font-size: 28px;
+}
+
+#InternetGrab .left-box .title_CN{
+    font-size: 22px;
+}
+
+#InternetGrab .left-box .short-line{
+    margin: 35px 0;
+    height: 4px;
+    width: 54px;
+    background: #4b2391;
+}
+
+#InternetGrab .left-box .content{
+    padding-right: 90px;
+}
+
+#InternetGrab .left-box .content-p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#InternetGrab .right-box{
+    padding-top: 42px;
+    width: 696px;
+    float: right;
+    text-align: center;
+
+}
+
+#InternetGrab .right-box img{
+    display: inline-block;
+}
+
+
+
+
+/*我们的能力*/
+#oProducts{
+    background: url("../images/product/productBg3.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 127px;
+    width: 100%;
+    min-width: 1200px;
+    height: 680px;
+}
+#oProducts .ability-item-wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#oProducts .ability-item-wrap .ability-item{
+    position: relative;
+    margin-right: 48px;
+    float: left;
+    width:368px;
+    height: 426px;
+    color: #333333;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#oProducts .ability-item-wrap .ability-item .text-box{
+    padding: 30px 35px 0;
+    position: absolute;
+    width: 100%;
+    height: 216px;
+    left: 0;
+    bottom: 0;
+}
+
+#oProducts .ability-item-wrap .ability-item .text-box .title_EN{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#oProducts .ability-item-wrap .ability-item .text-box .title_CN{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#oProducts .ability-item-wrap .ability-item .text-box .content-text{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+#oProducts .ability-item-wrap .ability-item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    top: -10px;
+}
+
+#oProducts .ability-item-wrap .ability-item:last-child{
+    margin-right: 0;
+}
+
+#oProducts .ability-item-wrap .ability-item:nth-child(1){
+     background: url("../images/product/product3_01.jpg") no-repeat;
+     -webkit-background-size: cover;
+     background-size: cover;
+ }
+
+#oProducts .ability-item-wrap .ability-item:nth-child(2){
+    background: url("../images/product/product3_02.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#oProducts .ability-item-wrap .ability-item:nth-child(3){
+    background: url("../images/product/product3_03.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}

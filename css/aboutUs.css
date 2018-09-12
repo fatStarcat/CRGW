@@ -1,0 +1,110 @@
+/*公司介绍*/
+#company >.title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#company .company{
+    margin: 0 auto;
+    width: 1200px;
+    height: 360px;
+    background: url("../images/aboutUs/company_min.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#company .company .content-right{
+    float: right;
+    padding:56px 50px 0 48px;
+    width: 600px;
+    font-size: 16px;
+    line-height: 28px;
+    text-indent: 2em;
+}
+
+#company .company .content-right .content-text p{
+    margin-bottom: 30px;
+}
+
+
+/*公司文化*/
+#company-culture{
+    padding: 70px 0 126px;
+}
+
+#company-culture>.title{
+    text-align: center;
+    margin-bottom: 106px
+}
+
+#company-culture .company-culture{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#company-culture .company-culture .culture-item{
+    padding: 10px;
+    width: 600px;
+    float: left;
+    margin-bottom: 60px;
+}
+
+#company-culture .company-culture .culture-item:nth-child(3),
+#company-culture .company-culture .culture-item:nth-child(4){
+    margin-bottom: 0;
+}
+
+#company-culture .company-culture .culture-item .left-box{
+    float: left;
+    width: 320px;
+    padding-left: 10px;
+}
+#company-culture .company-culture .culture-item .left-box .title_CN{
+    color: #4b2391;
+    font-size: 16px;
+}
+#company-culture .company-culture .culture-item .left-box .title_EN{
+    color: #4b2391;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#company-culture .company-culture .culture-item .left-box .text{
+    font-size: 16px;
+    text-indent: 2em;
+    color: #333333;
+    line-height: 24px;
+}
+
+#company-culture .company-culture .culture-item .right-box{
+    float: right;
+    width: 225px;
+}
+
+/*我们的团队*/
+#ourTeam{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 1200px;
+    height: 566px;
+    background: url("../images/aboutUs/TeamBg.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+#ourTeam > .title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#ourTeam  .text{
+    position: absolute;
+    font-size: 16px;
+    color: #333333;
+    text-indent: 2em;
+    line-height: 28px;
+    top: 230px;
+    left: 640px;
+    right: 102px;
+}
+

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>长日科技有限公司首页</title>
+    <meta name="keywords" content="长日科技">
+    <meta name="description" content="长日科技成都有限公司">
+    <link href="./images/index/logo.ico" rel="shorcut icon" />
+    <link rel="stylesheet" href="./assets/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <div id="top" class="layui-clear">
+        <div id="main-content">
+            <!--头部-->
+            <div id="header-box">
+                <!-- 轮播 -->
+                <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#bannerCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#bannerCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="http://www.gyss.org.cn/" target="_blank"><img src="./images/index/banner1_01_min.jpg"
+                                    alt="..."></a>
+                        </div>
+                        <div class="item">
+                            <img src="./images/index/banner2_01.jpg" alt="...">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 头部导航 -->
+                <header id="head" class="clearfix">
+                    <nav class="nav">
+                        <div class="logo-wrap">
+                            <img src="./images/aboutUs/logo.png" width="200">
+                        </div>
+                        <ul class="nav-menu">
+                            <li class="nav-menu-item item-on">
+                                <a href="#">
+                                    <p>首页</p>
+                                    <p>HOME</p>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item ">
+                                <a href="./product.html">
+                                    <p>产品服务</p>
+                                    <p>PRODUCT</p>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item ">
+                                <a href="./AboutUs.html">
+                                    <p>关于我们</p>
+                                    <p>ABOUT&nbsp;US</p>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item ">
+                                <a href="./contactUs.html">
+                                    <p>联系我们</p>
+                                    <p>CONTACT&ensp;US</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <!--主体内容-->
+            <div id="main-body">
+                <!--公司简介-->
+                <div class="content-wrap" id="company-info">
+                    <div class="title">
+                        <img src="./images/index/company-tag.png">
+                    </div>
+                    <div class="company-info clearfix">
+                        <div class="company-right">
+                            <div class="name">长日科技成都有限公司</div>
+                            <div class="info">
+                                长日科技是一家以大数据为战略目标的软件技术企业，成立于2016年，坐落于成都市高新区菁蓉国际广场（国际创新创业中心），是专业从事企业或政府单位信息化建设的软件企业。公司以大数据技术为核心竞争力，通过大数据技术作为基础服务平台，结合客户的实际业务，以此更好的解决用户需求，为用户挖掘更大的价值。
+                            </div>
+                            <div class='jump'>
+                                <a href="./AboutUs.html"><div class="jump-btn"><span class="glyphicon glyphicon-arrow-right"></span></div>rode&nbsp;more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap" id="product-wrap">
+
+                    <div class="product-wrap clearfix">
+                        <div class="title">
+                            <img src="./images/index/product-tag.png">
+                        </div>
+                        <div class="tab-img-wrap clearfix">
+                            <div class="tab-img-item on">
+                                <img src="./images/index/tab1_min.jpg" alt="">
+                            </div>
+                            <div class="tab-img-item">
+                                <img src="./images/index/tab2_min.jpg" alt="">
+                            </div>
+                            <div class="tab-img-item">
+                                <img src="./images/index/tab3_min.jpg" alt="">
+                            </div>
+                            <div class="tab-img-item">
+                                <img src="./images/index/tab4_min.jpg" alt="">
+                            </div>
+                            <div class="tab-img-item">
+                                <img src="./images/index/tab5_min.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <div class="out-box">
+                            <div class="inset-box">
+                                <p class="title"><span>一体化运维监控平台</span></p>
+                                <div class="content">
+                                    <p>对分布在各地、大量的服务器进行管理和实时监控，</p>
+                                    <p>并能够通过平台发布和更新应用系统服务。</p>
+                                </div>
+                                <a href="product.html" onclick="saveLocal('oProducts')">
+                                    <div class="jump-btn">
+                                        <img src="./images/index/left.png" width="30" height="30" alt="">
+                                    </div>
+                                </a>
+                                <img class="right-bottom-img" src="./images/index/product-icon1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="out-box">
+                            <div class="inset-box">
+                                <p class="title"><span>互联网数据抓取平台</span></p>
+                                <div class="content">
+                                    <p>针对互联网数据进行垂直抓取，结合智能文本分析技术，</p>
+                                    <p>能够为用户提取更大价值。</p>
+                                </div>
+                                <a href="product.html" onclick="saveLocal('InternetGrab')">
+                                    <div class="jump-btn">
+                                        <img src="./images/index/left.png" width="30" height="30" alt="">
+                                    </div>
+                                </a>
+                                <img class="right-bottom-img" src="./images/index/product-icon2.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="out-box">
+                            <div class="inset-box">
+                                <p class="title"><span>智能搜索引擎</span></p>
+                                <div class="content">
+                                    <p>部署模式灵活，承载量级大，支持的数据格式多，</p>
+                                    <p>搜索方式多化，搜索准确。</p>
+                                </div>
+                                <a href="product.html" onclick="saveLocal('oProducts')">
+                                    <div class="jump-btn">
+                                        <img src="./images/index/left.png" width="30" height="30" alt="">
+                                    </div>
+                                </a>
+                                <img class="right-bottom-img" src="./images/index/product-icon3.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="out-box">
+                            <div class="inset-box">
+                                <p class="title"><span>文本分析引擎</span></p>
+                                <div class="content">
+                                    <p>通过机器学习，能够准确的提取出文本关键词、地名、人名、机构名、</p>
+                                    <p>摘要等信息便于用户快速掌握文章关键信息。</p>
+                                </div>
+                                <a href="product.html" onclick="saveLocal('oProducts')">
+                                    <div class="jump-btn">
+                                        <img src="./images/index/left.png" width="30" height="30" alt="">
+                                    </div>
+                                </a>
+                                <img class="right-bottom-img" src="./images/index/product-icon4.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="out-box">
+                            <div class="inset-box">
+                                <p class="title"><span>检察机关公益诉讼线索采集系统</span></p>
+                                <div class="content">
+                                    <p>主要为检察机关公益诉讼线索枯竭的需求提供一种解决方案。</p>
+                                    <p>通过多平台、多渠道收集数据，为检察机关拓展更多线索源。</p>
+                                </div>
+                                <a href="product.html" onclick="saveLocal('cjSystem')">
+                                    <div class="jump-btn">
+                                        <img src="./images/index/left.png" width="30" height="30" alt="">
+                                    </div>
+                                </a>
+                                <img class="right-bottom-img" src="./images/index/product-icon5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap" id="provide-wrap">
+                    <div class="provide-wrap ">
+                        <div class="title">
+                            <img src="./images/index/provide-tag.png">
+                        </div>
+                        <div class="provide-item-wrap clearfix">
+                            <!--政法行业软件系统开发-->
+                            <div class="provide-item">
+                                <div class="default-box">
+                                    <img src="./images/index/provide1_min.jpg" alt="">
+                                    <div class="provide-text">
+                                        政法行业软件系统开发
+                                    </div>
+                                </div>
+                                <div class="hover-box">
+                                    <div class="text_EN">
+                                        Software development of </br>politics and law industry
+                                    </div >
+                                    <div class="text_CN">
+                                        政法行业软件系统开发
+                                    </div>
+                                </div>
+                            </div>
+                            <!--微信公众号小程序开发-->
+                            <div class="provide-item">
+                                <div class="default-box">
+                                    <img src="./images/index/provide2_min.jpg" alt="">
+                                    <div class="provide-text">
+                                        微信公众号小程序开发
+                                    </div>
+                                </div>
+                                <div class="hover-box">
+                                    <div class="text_EN">
+                                        WeChat public number</br> applet development
+                                    </div >
+                                    <div class="text_CN">
+                                        微信公众号小程序开发
+                                    </div>
+                                </div>
+                            </div>
+                            <!--互联网数据抓取-->
+                            <div class="provide-item">
+                               <div class="default-box">
+                                   <img src="./images/index/provide3_min.jpg" alt="">
+                                   <div class="provide-text">
+                                       互联网数据抓取
+                                   </div>
+                               </div>
+                                <div class="hover-box">
+                                    <div class="text_EN" style="line-height: 40px">
+                                        Internet data crawling
+                                    </div >
+                                    <div class="text_CN">
+                                        互联网数据抓取
+                                    </div>
+                                </div>
+                            </div>
+                            <!--行业软件开发-->
+                            <div class="provide-item">
+                               <div class="default-box">
+                                   <img src="./images/index/provide4_min.jpg" alt="">
+                                   <div class="provide-text">
+                                       行业软件开发
+                                   </div>
+                               </div>
+                                <div class="hover-box">
+                                    <div class="text_EN" style="line-height: 40px">
+                                        Industry software development
+                                    </div >
+                                    <div class="text_CN">
+                                        行业软件开发
+                                    </div>
+                                </div>
+                            </div>
+                            <!--大数据平台服务建设及应用开发-->
+                            <div class="provide-item">
+                                <div class="default-box">
+                                    <img src="./images/index/provide5_min.jpg" alt="">
+                                    <div class="provide-text">
+                                        大数据平台服务建设及应用开发
+                                    </div>
+                                </div>
+                                <div class="hover-box">
+                                    <div class="text_EN">
+                                        Construction and development </br>of big data platform
+                                    </div >
+                                    <div class="text_CN">
+                                        大数据平台服务建设及应用开发
+                                    </div>
+                                </div>
+                            </div>
+                            <!--软件信息咨询-->
+                            <div class="provide-item">
+                                <div class="default-box">
+                                    <img src="./images/index/provide6_min.jpg">
+                                    <div class="provide-text">
+                                        软件信息咨询
+                                    </div>
+                                </div>
+                                <div class="hover-box">
+                                    <div class="text_EN" style="line-height: 40px">
+                                        Software information consultation
+                                    </div >
+                                    <div class="text_CN">
+                                        软件信息咨询
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap" id="partner-wrap">
+                    <div class="partner-wrap ">
+                        <div class="title"><img src="./images/index/partner-tag.png"> </div>
+                        <div class="partner-item-wrap clearfix">
+                            <div class="partner-item"><img src="./images/index/XDH-Logo.png"></div>
+                            <div class="partner-item"><img src="./images/index/ZR-Logo.png"></div>
+                            <div class="partner-item"><img src="./images/index/YFTK-Logo.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页脚-->
+    <footer id="footer">
+        <div class="footer-content ">
+            <div class="logo-wrap ">
+                <img src="./images/aboutUs/logo.png" width="200">
+            </div>
+            <ul class="footer-list">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="product.html">产品服务</a></li>
+                <li><a href="AboutUs.html" onclick="saveLocal('company')">公司介绍</a></li>
+            </ul>
+
+            <div class="contact-us">
+                <p>联系我们</p>
+                <p>热线:&nbsp;18583875727</p>
+                <p>邮箱:&nbsp;lidalei@changritech.com</p>
+                <p>地址:&nbsp;成都市高新区菁蓉国际广场6幢A座2楼</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./script/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/bootstrap-3.3.7/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./script/common.js"></script>
+    <script>
+        $(function () {
+            $('#bannerCarousel').carousel({
+                interval: 5000,
+                pause: 'hover'
+            })
+
+            var index = 0;
+            var maxIndex= $('.tab-img-item').length;
+            var timer1 = setInterval(productPlay,5000)
+
+            $('.tab-img-item').each(function(i){
+                $(this).mouseenter(function(){
+                    index = i;
+                    clearInterval(timer1); //清除定时器
+                    $('.tab-img-item').eq(i).addClass('on').siblings('.tab-img-item').removeClass('on');
+                    $('.out-box').eq(i).show().siblings('.out-box').hide();
+                }).mouseleave(function () {
+                    timer1 = setInterval(productPlay,5000); //开启定时器
+                })
+            });
+            $('.inset-box').each(function(i){
+                $(this).mouseenter(function(){
+                    index = i;
+                    clearInterval(timer1); //清除定时器
+                    $('.tab-img-item').eq(i).addClass('on').siblings('.tab-img-item').removeClass('on');
+                    $('.out-box').eq(i).show().siblings('.out-box').hide()
+                }).mouseleave(function () {
+                    timer1 = setInterval(productPlay,5000); //开启定时器
+                })
+            });
+
+
+            //我们的产品 轮播
+            function productPlay(){
+                index++;
+                if(index == maxIndex ){
+                    index = 0;
+                }
+                $('.tab-img-item').eq(index).addClass('on').siblings('.tab-img-item').removeClass('on');
+                $('.out-box').eq(index).show().siblings('.out-box').hide()
+            }
+
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+#main{
+    padding: 60px 0;
+}
+
+#main > .title{
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+#main .main-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main .main-wrap .contact-wrap{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 112px;
+}
+
+#main .main-wrap .contact-wrap .Olabel{
+    float: left;
+    width: 60px;
+    font-size: 24px;
+    color: #F57A16;
+}
+
+#main .main-wrap .contact-wrap .right-box{
+    padding-left: 60px;
+    float: left;
+    width: 1140px;
+    height: 30px;
+    border-bottom: 1px solid #F57A16;
+}
+
+#main .main-wrap .contact-wrap .right-box .contact-item{
+    float: left;
+    font-size: 16px;
+    margin-right: 200px;
+}
+
+#main .main-wrap .contact-wrap .right-box .contact-item:last-child{
+    margin-right: 0;
+}
+
+#main .main-wrap .contact-wrap .right-box .contact-item img{
+    margin-right: 10px;
+}
+
+#main .map-img{
+    margin: 0 auto;
+    width: 1200px;
+    height: 650px;
+    overflow: hidden;
+    background-size: cover;
+}
+#main .map-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
